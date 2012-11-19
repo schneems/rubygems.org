@@ -32,6 +32,7 @@ gem 'validates_formatting_of'
 gem 'will_paginate'
 gem 'xml-simple'
 gem 'yajl-ruby', :require => 'yajl'
+gem 'opro'
 
 # enable if on heroku, make sure to toss this into an initializer:
 #     Rails.application.config.middleware.use HerokuAssetCacher

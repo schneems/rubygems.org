@@ -1,4 +1,5 @@
 Gemcutter::Application.routes.draw do
+
   ################################################################################
   # Root
 
@@ -127,4 +128,5 @@ Gemcutter::Application.routes.draw do
     resource :password, :only => [:create, :edit, :update]
   end
 
+  mount_opro_oauth
 end
