@@ -39,7 +39,7 @@ Gemcutter::Application.routes.draw do
           end
         end
       end
-
+      resources :navbar
       resources :dependencies, :only => :index
 
       resources :rubygems, :path => 'gems', :only => [:create, :show, :index], :id => Patterns::LAZY_ROUTE_PATTERN, :format => /json|xml|yaml/ do
